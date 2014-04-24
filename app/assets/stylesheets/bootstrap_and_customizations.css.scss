@@ -1,8 +1,16 @@
-$body-bg: #fff;
-$navbar-default-bg: #34495e;
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+$body-bg: #ecf0f1;
+$navbar-default-bg: #7f8c8d;
+$font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-default-link-color: #fff;
-$brand-primary: #34495e;
-$jumbotron-bg: #fff;
+$brand-primary: #7f8c8d;
+$jumbotron-bg: white;
 
 
 @import "bootstrap";
+
+
+.navbar-brand {
+     font-weight: bold;
+}
